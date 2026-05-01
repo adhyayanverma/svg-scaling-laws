@@ -248,6 +248,8 @@ All models share `vocab_size=4096` and `n_positions=1024`.
 | Tiny | 1.4M | 0.3090 |
 | Small | 3.7M | 0.2728 |
 | Medium | 12.6M | 0.2659 |
+| Large | 34.1M | 0.2596 |
+| XL | 89.0M | 0.3191 |
 
 ## Generated SVGs
  
@@ -257,5 +259,3 @@ Sample SVGs rendered from the trained XL model checkpoint. Each image is the ras
 |:---:|:---:|:---:|
 | ![Generated SVG 1](cmp_T10_s9__1_.png) | ![Generated SVG 2](cmp_T10_s4__1_.png) | ![Generated SVG 3](cmp_T08_s1.png) |
 | `cmp_T10_s9` | `cmp_T10_s4` | `cmp_T08_s1` |
-| Large | 34.1M | 0.2596 |
-| XL | 89.0M | 0.3191 |
