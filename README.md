@@ -257,5 +257,5 @@ Sample SVGs rendered from the trained XL model checkpoint. Each image is the ras
  
 | Sample 1 | Sample 2 | Sample 3 |
 |:---:|:---:|:---:|
-| ![Generated SVG 1](cmp_T10_s9__1_.png) | ![Generated SVG 2](cmp_T10_s4__1_.png) | ![Generated SVG 3](cmp_T08_s1.png) |
+| ![Generated SVG 1](assets/cmp_T10_s9__1_.png) | ![Generated SVG 2](assets/cmp_T10_s4__1_.png) | ![Generated SVG 3](assets/cmp_T08_s1.png) |
 | `cmp_T10_s9` | `cmp_T10_s4` | `cmp_T08_s1` |
