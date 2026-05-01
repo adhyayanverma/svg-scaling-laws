@@ -1,0 +1,29 @@
+# SVG Generation with GPT-2 — Dependencies
+# Python >= 3.10 recommended
+# GPU: CUDA 12.x (A100 used in development)
+#
+# Install: pip install -r requirements.txt
+# Colab:   all packages below are pre-installed except cairosvg and mup
+
+# --- Core ML ---
+torch>=2.10.0
+torchvision>=0.25.0
+transformers>=4.40.0
+datasets>=2.18.0
+tokenizers>=0.19.0
+
+# --- μP (Maximal Update Parameterization) ---
+mup==1.0.0
+
+# --- SVG Rendering & Validation ---
+cairosvg>=2.7.0
+cairocffi>=1.6.0       # cairosvg backend
+cssselect2>=0.7.0      # cairosvg dependency
+tinycss2>=1.2.0        # cairosvg dependency
+lxml>=5.0.0
+
+# --- Scientific Computing & Plotting ---
+numpy>=1.26.0
+scipy>=1.12.0
+matplotlib>=3.8.0
+Pillow>=10.0.0
